@@ -4,7 +4,7 @@ import SupabaseLogo from "./SupabaseLogo";
 export default function Header() {
   return (
     <div className="flex flex-col gap-16 items-center">
-      <div className="flex gap-8 justify-center items-center">
+      <div className="flex gap-8 justify-left items-center">
         <a
           href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
           target="_blank"
@@ -18,8 +18,8 @@ export default function Header() {
         </a>
       </div>
       <h1 className="sr-only">Supabase and Next.js Starter Template</h1>
-      <p className="text-3xl lg:text-4xl !leading-tight mx-auto max-w-xl text-center">
-        The fastest way to build apps with{" "}
+      <p className="text-amber-500 hover:text-violet-600 ">
+        Recipe box app built with
         <a
           href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
           target="_blank"
